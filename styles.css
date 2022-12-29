@@ -1,2 +1,21 @@
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
 
+  th {
+    background-color: #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  td {
+    border: 1px solid #ddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
 /* Your CSS Code here. */
